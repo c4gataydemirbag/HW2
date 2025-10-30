@@ -11,4 +11,4 @@ def get_node_position(head, target_value):
             return position  # return index (0-based)
         current = current.next
         position += 1
-    return -1  # not found
+    return -1 
